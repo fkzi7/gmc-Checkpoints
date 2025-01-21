@@ -1,0 +1,99 @@
+
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+header{
+    overflow: hidden;
+    width: 5px ;
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 100vh;
+    transition: .5s;
+	justify-content: space-between;
+	position: fixed;
+
+}
+header:hover{
+    width:250px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(233, 243, 245, 0.459);
+}
+
+.d1{
+    display: flex;
+    font-size: larger; 
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px dashed black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.d2{height: 90vh;
+    background-color: rgb(96, 96, 121);
+    padding-top: 20px;
+    padding-left: 20px;
+    border-bottom: 2px solid black;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: larger;
+	font-weight: bolder;
+	font-style: italic;
+	color: red;
+}
+li{
+    margin-bottom: 100px;
+
+}
+
+h2{
+	color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	
+}
+
+ body{
+background-size: 100%;
+background-image:url(/public/images/interrior.jpeg);
+ }
+
+
+h3{
+	color: white;
+	font-size: large;
+	font-weight: bold;
+}
+
+p{
+	color: rgb(255, 0, 0);
+	;
+	font-weight: bold;
+	margin-left: 70%;
+	opacity: 0.9;
+	
+}
+
+h3{
+	margin-left: 70%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(255, 0, 0);
+	opacity: 0.7;
+
+}
+
