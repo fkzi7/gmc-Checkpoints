@@ -4,5 +4,5 @@
 // The current database to use.
 use("mongodbexcercise");
 
-db.users.find()
+db.transactions.find()
 
