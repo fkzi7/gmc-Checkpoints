@@ -1,0 +1,15 @@
+{
+  "name": "node.js.checkpoint",
+  "version": "1.0.0",
+  "main": "node.js.checkpoint.js",
+  "scripts": {
+    "start": "node .",
+    "dev" : "nodemon ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
