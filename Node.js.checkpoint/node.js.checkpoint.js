@@ -1,29 +1,10 @@
-const fs = require('fs').promises;
-const port = 3000;
-const express = require('express'); 
-const app = express()
-/* const http = require('http');
+const http = require("http");
+
 const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello, noden!');
+    res.writeHead(200, { "Content-Type": "text/html" });
+    res.end("<h1>Hello Node!!!!</h1>\n");
 });
 
-async function createFile() {
-  try {
-    await fs.writeFile('example.txt', 'Hello, world!');
-    console.log('File has been created!');
-  } catch (err) {
-    console.error(err);
-  }
-}
-
-createFile(); */
-
-console.log("hello world");
-
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}/`);
+server.listen(3000, () => {
+    console.log("Server is running on http://localhost:3000");
 });
-
-
