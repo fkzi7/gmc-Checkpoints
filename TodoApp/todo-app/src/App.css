@@ -1,0 +1,26 @@
+.app {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.task-form input,
+.task-form textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
