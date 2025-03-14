@@ -6,7 +6,7 @@ Hello! My name is Ziouani Farouk , and I am a aspiring web developer. I recently
 ---
 
 ## How Ready Am I?
-I feel ready with some gaps to start the next step in my career path. During the bootcamp, I worked on several projects that helped me build a strong foundation in front-end development, back-end development and full-stack development. I am confident in my ability to **[specific tasks, e.g., build responsive websites, create RESTful APIs, debug and optimize code]**.
+I feel ready with some gaps to start the next step in my career path. During the bootcamp, I worked on several projects that helped me build a strong foundation in front-end development, back-end development and full-stack development. I am confident in my ability to  build responsive websites, create RESTful APIs, debug and optimize code.
 
 However, I recognize that there are areas where I can improve, such as  mastering advanced JavaScript concepts. I am committed to continuous learning and growth as I transition into my new career.
 
